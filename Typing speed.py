@@ -2,7 +2,6 @@ import tkinter
 from tkinter import *
 from tkinter import messagebox
 from tkinter.scrolledtext import ScrolledText
-import keyboard
 
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -19,7 +18,6 @@ def start_timer():
     test_text.config(state="normal")
     work_sec = int(WORK_MIN * 60)
     count_down(work_sec)
-    # count_text()
 
 
 def count_down(count):
